@@ -1,0 +1,16 @@
+spring:
+  datasource:
+#    mysql
+    url: jdbc:mysql://localhost:3306/orm
+    username: root
+    password: root
+
+#    postgres
+#    url: jdbc:postgres://localhost:5432/orm
+#    username: postgres
+#    password: root
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
